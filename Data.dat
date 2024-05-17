@@ -1,0 +1,19 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: julian
+ * Creation Date: May 9, 2024 at 10:28:26 PM
+ *********************************************/
+outFile="EX 11-1";
+fileName=...;
+
+SheetConnection excelsheet(fileName);
+j from SheetRead(excelsheet,"J");
+n from SheetRead(excelsheet,"N");
+nTemp from SheetRead(excelsheet,"nTemp");
+nTemp2 from SheetRead(excelsheet,"nTemp2");
+Temp from SheetRead (excelsheet,"PData");
+Temp2 from SheetRead (excelsheet,"TData");
+
+A=...;
+
+DD=[46.86,52.72,47.54,38.14,40.49];//Due date of each job [Job]
